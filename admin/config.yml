@@ -1,0 +1,78 @@
+backend:
+  name: github
+  repo: joaopedroamvp-sudo/sabasesh-site
+  branch: main
+
+media_folder: "assets"
+public_folder: "assets"
+
+collections:
+  - name: "conteudo"
+    label: "Conteúdo do site"
+    files:
+      - file: "content.json"
+        label: "Site Sabasesh"
+        name: "conteudo"
+        fields:
+          - label: "Topo (Hero)"
+            name: "hero"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Texto pequeno por cima do título", name: "eyebrow", widget: "string" }
+              - { label: "Frase por baixo do título", name: "subtitulo", widget: "text" }
+
+          - label: "Sobre o Sabasesh"
+            name: "sobre"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Texto principal", name: "texto", widget: "text" }
+              - { label: "Pilar 1 - Título", name: "pilar1_titulo", widget: "string" }
+              - { label: "Pilar 1 - Texto", name: "pilar1_texto", widget: "text" }
+              - { label: "Pilar 2 - Título", name: "pilar2_titulo", widget: "string" }
+              - { label: "Pilar 2 - Texto", name: "pilar2_texto", widget: "text" }
+              - { label: "Pilar 3 - Título", name: "pilar3_titulo", widget: "string" }
+              - { label: "Pilar 3 - Texto", name: "pilar3_texto", widget: "text" }
+
+          - label: "Próximo evento (Cartaz)"
+            name: "evento"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Formato (ex: Jam Session · Showcase · Dj Set)", name: "formato", widget: "string" }
+              - { label: "Data curta (ex: 13 SET)", name: "data_curta", widget: "string" }
+              - { label: "Hora e entrada", name: "hora_entrada", widget: "string" }
+              - { label: "Local", name: "local", widget: "string" }
+              - { label: "Nota sobre a morada", name: "nota_local", widget: "string" }
+
+          - { label: "Recordação do último evento", name: "recap", widget: "text" }
+
+          - label: "Queres tocar (Participar)"
+            name: "participar"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Título", name: "titulo", widget: "string" }
+              - { label: "Texto", name: "texto", widget: "text" }
+
+          - label: "Apoiar"
+            name: "apoiar"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Título", name: "titulo", widget: "string" }
+              - { label: "Texto", name: "texto", widget: "text" }
+              - { label: "Item 1", name: "item1", widget: "string" }
+              - { label: "Item 2", name: "item2", widget: "string" }
+              - { label: "Item 3", name: "item3", widget: "string" }
+              - { label: "Item 4", name: "item4", widget: "string" }
+
+          - label: "Contacto"
+            name: "contacto"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Texto de introdução", name: "texto", widget: "text" }
+              - { label: "Email", name: "email", widget: "string" }
+              - { label: "Utilizador do Instagram (sem @)", name: "instagram", widget: "string" }
