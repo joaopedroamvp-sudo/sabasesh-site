@@ -1,0 +1,40 @@
+{
+  "hero": {
+    "eyebrow": "Jam Session · Showcase · Dj Set",
+    "subtitulo": "Música ao vivo sem palco fixo, organizada por jovens do distrito do Porto. Entrada livre, sempre."
+  },
+  "sobre": {
+    "texto": "O Sabasesh é um coletivo de jovens que organiza jam sessions, showcases e noites de DJ set no distrito do Porto — normalmente ao ar livre, sempre com entrada livre. Já passámos pelo Campo de Jogos de Tougues em parceria com a Associação de Jovens de Tougues, e estamos sempre a preparar o próximo.",
+    "pilar1_titulo": "Sem casting",
+    "pilar1_texto": "Juntamos quem toca com quem quer tocar. Não é preciso currículo, só vontade de aparecer.",
+    "pilar2_titulo": "Palco aberto",
+    "pilar2_texto": "Damos espaço a quem está a começar, ao vivo e em sets — bandas, solo, DJs.",
+    "pilar3_titulo": "Rede local",
+    "pilar3_texto": "Trabalhamos com associações e juntas de freguesia do distrito para levar música a mais sítios."
+  },
+  "evento": {
+    "formato": "JAM SESSION DJ SET",
+    "data_curta": "4 Julho",
+    "hora_entrada": "16h",
+    "local": "Parque do Castelo",
+    "nota_local": "Av. Marquês Sá da Bandeira 4480 - 916 Vila do Cond"
+  },
+  "recap": "17 Junho - Tougues\n28 Abril - AEFEUP\n16 Novembro - Macieira da Maia\n13 Setembro - Sabariz",
+  "participar": {
+    "titulo": "Queres tocar num Sabasesh?",
+    "texto": "Bandas, artistas a solo e DJs do distrito do Porto: se querem subir a palco no próximo Sabasesh, manda mensagem. Não é preciso experiência nem nome feito — só vontade de tocar."
+  },
+  "apoiar": {
+    "titulo": "O Sabasesh precisa de quem acredite nisto",
+    "texto": "Funcionamos com voluntários e com o apoio de quem acredita neste projeto. Toda a ajuda vai direta para os próximos eventos.",
+    "item1": "Ajuda a montar e desmontar eventos",
+    "item2": "Divulga o Sabasesh na tua zona",
+    "item3": "Propõe um espaço para o próximo evento",
+    "item4": "Torna-te parceiro local"
+  },
+  "contacto": {
+    "texto": "És uma banda, um espaço, ou só queres saber mais? Escreve-nos.",
+    "email": "geral@sabasesh.pt",
+    "instagram": "sabasesh"
+  }
+}
