@@ -1,0 +1,26 @@
+backend:
+  name: github
+  repo: joaopedroamvp-sudo/sabasesh-site
+  branch: main
+
+media_folder: "assets"
+public_folder: "assets"
+
+collections:
+  - name: "conteudo"
+    label: "Conteúdo do site"
+    files:
+      - file: "content.json"
+        label: "Próximo evento e recordação"
+        name: "conteudo"
+        fields:
+          - label: "Próximo evento"
+            name: "evento"
+            widget: "object"
+            fields:
+              - { label: "Formato (ex: Jam Session · Showcase · Dj Set)", name: "formato", widget: "string" }
+              - { label: "Data curta (ex: 13 SET)", name: "data_curta", widget: "string" }
+              - { label: "Hora e entrada", name: "hora_entrada", widget: "string" }
+              - { label: "Local", name: "local", widget: "string" }
+              - { label: "Nota sobre a morada", name: "nota_local", widget: "string" }
+          - { label: "Texto de recordação do último evento", name: "recap", widget: "text" }
